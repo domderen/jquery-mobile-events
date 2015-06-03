@@ -524,11 +524,11 @@ if ( eventCaptureSupported ) {
 		}
 	}, true);
 }
-})( jQuery, window, document );
+})( $, window, document );
 
 (function( $ ) {
 	$.mobile = {};
-}( jQuery ));
+}( $ ));
 	(function( $, undefined ) {
 		var support = {
 			touch: "ontouchend" in document
@@ -537,7 +537,7 @@ if ( eventCaptureSupported ) {
 		$.mobile.support = $.mobile.support || {};
 		$.extend( $.support, support );
 		$.extend( $.mobile.support, support );
-	}( jQuery ));
+	}( $ ));
 
 
 (function( $, window, undefined ) {
@@ -764,6 +764,6 @@ if ( eventCaptureSupported ) {
 		};
 	});
 
-})( jQuery, this );
+})( $, this );
 
 }));
